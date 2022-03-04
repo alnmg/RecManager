@@ -1,0 +1,43 @@
+## ====================
+## Rec Manager v1.0
+## created by alnmgDev
+## ====================
+
+#configuration file
+
+pvp: true
+chat: true
+build: true
+interact: true
+
+# messages
+
+prefix: '&9&lRec &6&lManager &7&l| '
+
+pvpdeny: '&4&lo pvp esta desabilitado'
+chatdeny: '&4&lo chat esta desabilitado'
+builddeny: '&4&lvocê nao pode construir aqui!'
+interactdeny: '&4&lvocê nao pode interagir com isso!'
+
+#command messages
+
+enablechat: "&f&lVocê &a&lativou &f&lo chat"
+disablechat: "&f&lVocê &c&ldesativou &f&lo chat"
+
+enablepvp: "&f&lVocê &a&lativou &f&lo PVP"
+disablepvp: "&f&lVocê &c&ldesativou &f&lo PVP"
+
+enablebuild: "&f&lVocê &a&lativou &f&la construção"
+disablebuild: "&f&lVocê &c&ldesativou &f&la construção"
+
+enableinteract: "&f&lVocê &a&lativou &f&la interação"
+disableinteract: "&f&lVocê &c&ldesativou &f&la interação"
+
+enablehardcore: "&f&lVocê &a&lativou &f&lo hardcore no modo &b&l" ## + modo
+disablehardcore: "&f&lVocê &c&ldesativou &f&lo hardcore"
+
+#hardcore
+
+hardcore: false
+hardcoretype: 'kick'
+hardcorekickmsg: "&cVocê foi eliminado. obrigado por jogar"

@@ -1,0 +1,39 @@
+name: Recmanager
+version: '${project.version}'
+main: me.alnmgdev.recmanager.recmanager
+prefix: RecManager
+authors: [ alnmg_dev ]
+description: simples plugin que adiciona tudo que voce precisa para fazer videos de minigames no minecraft (criado por alnmgdev)
+
+commands:
+  chat:
+    description: ativa ou desativa o chat
+    permission-message: no permission
+    permission: recmanager.chat
+    aliases:
+      - bate-papo
+  pvp:
+    description: ativa ou desativa o pvp
+    permission-message: no permission
+    permission: recmanager.pvp
+
+  build:
+    description: ativa ou desativa a build
+    permission-message: no permission
+    permission: recmanager.build
+    aliases:
+      - construção
+      - construir
+
+  interact:
+    description: ativa ou desativa a interação (baus, alavancas, etc)
+    permission-message: no permission
+    permission: recmanager.interact
+    aliases:
+      - interação
+      - interagir
+  hardcore:
+    description: hardcore com 2 modos kick e spectator
+    permission-message: no permission
+    permission: recmanager.hardcore
+
